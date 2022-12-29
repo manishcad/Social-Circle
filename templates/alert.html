@@ -1,0 +1,7 @@
+{% if messages %}
+{% for msg in messages %}
+<div class="alert alert-danger" role="alert">
+   <center><p style="font-size: 20px; font-weight:bold;letter-spacing:3px; color:black;">{{msg}}</p></center> 
+  </div>
+  {% endfor %}
+{% endif%}
